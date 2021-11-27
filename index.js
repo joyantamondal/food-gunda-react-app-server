@@ -101,3 +101,27 @@ app.get('/',(req,res)=>{
 app.listen(port,()=>{
  console.log('Server Running at port ', port);
 })
+
+/*
+onetime:
+1. heroku account open
+2. herku software install
+
+Every project
+1. git init
+2. .gitignore(node_module, .env)
+3. push everything to git 
+4. make sure you habe this script on package.json("start": "node index.js")
+5. make sure : put process.env.PORT in front of your port Number
+
+command :
+1. heroku login
+2. heroku create (only one time for a project)
+3, git push heroku main
+
+Update Project:
+
+1. save everything check locally
+2. git add, git commit -m"", git push
+3. git push heroku main
+*/
