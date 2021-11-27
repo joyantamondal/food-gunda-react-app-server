@@ -118,6 +118,8 @@ command :
 1. heroku login
 2. heroku create (only one time for a project)
 3, git push heroku main
+then:
+4 heroku >app>settings>add var(DB_User, DB_Pass)
 
 Update Project:
 
